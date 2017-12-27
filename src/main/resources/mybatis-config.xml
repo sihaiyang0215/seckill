@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--Config Global Attributes-->
+    <settings>
+        <!--Use jdbc getGeneratekeys to get incremental primary key-->
+        <setting name="useGeneratedKeys" value="true"/>
+
+        <setting name="useColumnLabel" value="true"/>
+
+        <!--Turn on Camel Switch: Table:create_time to Entity(createTime)-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+</configuration>

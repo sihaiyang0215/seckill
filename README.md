@@ -1,2 +1,0 @@
-# seckill
-A seckill system
